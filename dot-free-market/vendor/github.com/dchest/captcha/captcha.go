@@ -12,10 +12,10 @@
 // it in such a way that makes it hard for computers to solve it using OCR.
 //
 // An audio representation is a WAVE-encoded (8 kHz unsigned 8-bit) sound with
-// the spoken solution (currently in English, Russian, and Chinese). To make it
-// hard for computers to solve audio captcha, the voice that pronounces numbers
-// has random speed and pitch, and there is a randomly generated background
-// noise mixed into the sound.
+// the spoken solution (currently in English, Russian, Chinese, and Japanese).
+// To make it hard for computers to solve audio captcha, the voice that
+// pronounces numbers has random speed and pitch, and there is a randomly
+// generated background noise mixed into the sound.
 //
 // This package doesn't require external files or libraries to generate captcha
 // representations; it is self-contained.
@@ -50,17 +50,16 @@ import (
 	"errors"
 	"io"
 	"time"
-	"math/rand"
 )
 
 const (
 	// Default number of digits in captcha solution.
-	DefaultLen = 5
+	DefaultLen = 6
 	// The number of captchas created that triggers garbage collection used
 	// by default store.
-	CollectNum = 1000
+	CollectNum = 100
 	// Expiration time of captchas used by default store.
-	Expiration = 15 * time.Minute
+	Expiration = 10 * time.Minute
 )
 
 var (
@@ -78,7 +77,7 @@ func SetCustomStore(s Store) {
 // New creates a new captcha with the standard length, saves it in the internal
 // storage and returns its id.
 func New() string {
-	return NewLen(1+rand.Intn(8))
+	return NewLen(DefaultLen)
 }
 
 // NewLen is just like New, but accepts length of a captcha solution as the

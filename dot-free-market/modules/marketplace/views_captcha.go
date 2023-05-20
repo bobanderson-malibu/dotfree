@@ -3,7 +3,7 @@ package marketplace
 import (
 	"github.com/dchest/captcha"
 	"github.com/gocraft/web"
-	"github.com/mojocn/base64Captcha"
+	"github.com/louismax/base64Captcha"
 )
 
 func (c *Context) ViewCaptchaImage(w web.ResponseWriter, r *web.Request) {
@@ -25,6 +25,6 @@ func (c *Context) ViewCaptchaImageV2(w web.ResponseWriter, r *web.Request) {
 		IsShowSineLine:     true,
 		CaptchaLen:         6,
 	}
-	_, captchaInterfaceIntance := base64Captcha.GenerateCaptcha(r.PathParams["captcha_id"], config)
+	_, _, captchaInterfaceIntance := base64Captcha.GenerateCaptcha(r.PathParams["captcha_id"], config)
 	captchaInterfaceIntance.WriteTo(w)
 }

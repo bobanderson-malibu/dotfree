@@ -26,7 +26,7 @@ func runCrons() {
 		marketplace.StartStatsCron()
 		marketplace.StartSERPCron()
 		marketplace.StartFrontPageCron()
-		marketplace.StartSupportTicketCron()
+		// marketplace.StartSupportTicketCron()
 	}
 
 	marketplace.StartCurrencyCron()

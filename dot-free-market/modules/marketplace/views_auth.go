@@ -11,7 +11,7 @@ import (
 
 	"github.com/dchest/captcha"
 	"github.com/gocraft/web"
-	"github.com/mojocn/base64Captcha"
+	"github.com/louismax/base64Captcha"
 	"github.com/skip2/go-qrcode"
 
 	"github.com/bobanderson-malibu/dotfree/dot-free-market/modules/apis"

@@ -35,7 +35,7 @@ To get Tochka running:
 
 ```
 # 1. Get Tochka source code
-torsocks go get -insecure github.com/bobanderson-malibu/dotfree/dot-free-market
+go get github.com/bobanderson-malibu/dotfree/dot-free-market
 
 # 2. Build Tochka from source
 cd $GOPATH/src/github.com/bobanderson-malibu/dotfree/dot-free-market

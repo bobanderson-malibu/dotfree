@@ -13,9 +13,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/onrik/ethrpc"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis/etherscan"
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/db"
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/settings"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis/etherscan"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/db"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/settings"
 	"qxklmrhx7qkzais6.onion/Tochka/tochka-ico/contracts"
 )
 

@@ -5,7 +5,7 @@ import (
 
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/settings"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/settings"
 )
 
 var (

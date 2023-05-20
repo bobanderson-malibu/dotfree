@@ -15,7 +15,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/onrik/ethrpc"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis/etherscan"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis/etherscan"
 	contract_registry "qxklmrhx7qkzais6.onion/Tochka/tochka-ethereum-contracts/contracts/golang/registry"
 	"qxklmrhx7qkzais6.onion/Tochka/tochka-ethereum-contracts/contracts/golang/tochka_escrow_payment"
 )

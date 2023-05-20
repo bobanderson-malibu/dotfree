@@ -14,9 +14,9 @@ import (
 
 	"github.com/vsergeev/btckeygenie/btckey"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis/insight"
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/db"
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/settings"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis/insight"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/db"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/settings"
 )
 
 var (

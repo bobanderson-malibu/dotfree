@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocraft/web"
 	"net/http"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/settings"
+	"github.com/gocraft/web"
+
+	"github.com/bobanderson-malibu/dotfree/payment-gate/settings"
 )
 
 type Context struct {

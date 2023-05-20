@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/db"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/db"
 )
 
 /*

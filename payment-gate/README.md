@@ -8,37 +8,38 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* golang
-* nodejs 
-* git
-* Postgres 
-* tor / torsocks
-* geth
+- golang
+- nodejs
+- git
+- Postgres
+- tor / torsocks
+- geth
 
 ### Supported Cryptocurrencies
 
-* Bitcoin (BTC)
-* Bitcoin Cash (BCH)
-* Ethereum
+- Bitcoin (BTC)
+- Bitcoin Cash (BCH)
+- Ethereum
 
 ### Installing
 
 To get Payaka running:
+
 ```
 # 1. Get Payaka source code
-torsocks go get -insecure qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate
+go get github.com/bobanderson-malibu/dotfree/payment-gate
 # 2. Build Tochka from source
-cd $GOPATH/src/qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate
+cd $GOPATH/src/github.com/bobanderson-malibu/dotfree/payment-gate
 go build
 # 3. Edit settings
 cp settings.json.example settings.json
 vi settings.json
 # 4. Sync DB models and supplementary data
-PAYAKA_DEBUG=1 ./payaka-payment-gate sync
+PAYAKA_DEBUG=1 ./payment-gate sync
 # 5. Install nodejs deps
 cd nodejs && npm install
 # 5. Run HTTP server
-PAYAKA_DEBUG=1 ./payaka-payment-gate
+PAYAKA_DEBUG=1 ./payment-gate
 ```
 
 ### REST API Descriptions
@@ -46,7 +47,7 @@ PAYAKA_DEBUG=1 ./payaka-payment-gate
 To be added
 
 ## License
- 
+
 The MIT License (MIT)
 
 Copyright (c) 2015 Chris Kibble

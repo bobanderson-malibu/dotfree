@@ -3,7 +3,7 @@ package ethereum
 import (
 	"time"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/settings"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/settings"
 )
 
 func TaskUpdateEthereumWalletBalances() {

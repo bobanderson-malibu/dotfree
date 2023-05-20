@@ -1,8 +1,8 @@
 package exchange
 
 import (
-	btc "qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/cryptocurrencies/bitcoin"
-	bch "qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/cryptocurrencies/bitcoincash"
+	btc "github.com/bobanderson-malibu/dotfree/payment-gate/cryptocurrencies/bitcoin"
+	bch "github.com/bobanderson-malibu/dotfree/payment-gate/cryptocurrencies/bitcoincash"
 )
 
 // TransferBitcoinCashToBitcoin transfers coins from Bitcoin Cash Wallet to a Bitcoin Wallet

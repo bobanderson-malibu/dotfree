@@ -6,12 +6,12 @@ import (
 
 	"go.uber.org/ratelimit"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis"
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis/insight"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis/insight"
 )
 
 /*
-	Globals
+Globals
 */
 var (
 	api = SoChainBitcoinAPI{Proxified: true, rl: ratelimit.New(5)}

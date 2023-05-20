@@ -6,8 +6,8 @@ import (
 
 	"encoding/json"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis"
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/settings"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/settings"
 )
 
 type EtherscanPushTransactionResponse struct {

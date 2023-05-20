@@ -6,7 +6,7 @@ import (
 
 	"github.com/gocraft/web"
 
-	"qxklmrhx7qkzais6.onion/Tochka/payaka-payment-gate/apis/cryptocompare"
+	"github.com/bobanderson-malibu/dotfree/payment-gate/apis/cryptocompare"
 )
 
 type ViewShowCurrencyResponse struct {

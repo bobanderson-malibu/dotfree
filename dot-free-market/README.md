@@ -1,4 +1,4 @@
-# Tochka Free Market
+# Dot Free Market
 
 ## Project Description
 
